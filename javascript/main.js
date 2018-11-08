@@ -5,6 +5,9 @@ $('button').click(function NewTask() {
 		var i = document.createTextNode(inputItem);
 		var newItem = document.createElement("li");
 		newItem.appendChild(i);
+
+    document.getElementById("MyToDoList").appendChild(newItem);
+	});
 	});
 
 
