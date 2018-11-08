@@ -14,6 +14,3 @@ $('button').click(function NewTask() {
 	$('ol').on('click', 'li', function(){
     	$(this).hide("slow");
     });
-
-
-});
